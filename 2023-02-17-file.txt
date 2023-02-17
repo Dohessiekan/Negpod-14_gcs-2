@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Script prints strings and changes the file name
+
+echo "one"
+echo "two"
+echo "three"
+echo "four"
+
+today_date=$(date +'%Y-%m-%d')
+
+mv *-file.txt "$today_date"-file.txt
+
